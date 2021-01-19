@@ -1,0 +1,61 @@
+body
+{
+    text-align: center;
+}
+
+
+
+
+ul
+{
+    list-style: none;  text-align: left;
+}
+ul li::before
+{
+    font-weight: bold;  display: inline-block;  width: 1em;  margin-left: -1em;  content: '\2022';
+
+    color: #81b214;
+}
+h2
+{
+    padding: 25px 0;  color: #81b214;
+}
+h4
+{
+    margin: 15px;
+}
+@media(max-width:800px)
+{
+    .card
+    {
+        width: 90%;  margin: auto;  margin-bottom: 10px;padding: 10px; border-width: 2px; border-color: #81b214;;
+    }
+}
+@media(min-width:801px)
+{
+    .card
+    {
+        width: 40%;  margin: auto;  margin-bottom: 10px;padding: 10px; border-width: 2px; border-color: #81b214;;
+    }
+}
+.header
+{
+    background-color: #81b214;
+}
+.header h2
+{
+    color: black;
+}
+.fas
+{
+    color: black;
+}
+.fas:hover
+{
+    color: white;
+}
+
+.btn
+{
+    position: absolute; top: 3%; right: 90%;
+}

@@ -1,0 +1,126 @@
+body
+{
+    font-family: 'Raleway', sans-serif;  font-weight: 500;   margin: auto;text-align: center;
+}
+
+h1
+{
+    font-weight: 600;
+}
+
+header div
+{
+    margin: 25px;
+}
+header img
+{
+    width: 250px;  height: 250px;
+    margin-top: 25px; border: 1px; border-style: solid;border-color: #81b214;border-radius: 100%;
+}
+ul
+{
+    list-style-type: none;
+}
+li
+{
+    margin-bottom: 5px;
+}
+hr
+{
+    width: 5%;  margin: 50px auto; opacity: 50;  border-style: dotted;  border-color: #81b214;  border-top-width: 10px;  border-right: none;  border-bottom: none;  border-left: none; background-color: white;
+}
+
+a
+{
+    text-decoration: none ;  color: black;
+}
+
+a:hover
+{
+    cursor: pointer;     text-decoration: none;
+
+    color: #81b214;
+}
+
+
+.profile
+{
+    position: relative;
+}
+.text
+{
+    padding-bottom: 20px;
+
+    background-color: #81b214;
+}
+.bold
+{
+    font-weight: bolder;  color: #81b214;
+}
+.card
+{
+    margin-bottom: 15px;  border-radius: 20px;
+}
+.row
+{
+    margin: 0;  background-image: -webkit-linear-gradient(90deg, white 90%, #81b214 90%);
+}
+.white
+{
+    opacity: 0;
+}
+.fas,
+.fab
+{
+    color: #81b214;
+}
+
+.top-container
+{
+    position: relative;  padding: 10px 0 ;  text-align: center;  background-image: -webkit-linear-gradient(90deg, #81b214 25%, white 25%);
+}
+.middle-container
+{
+    margin: auto;
+}
+.bottom-container
+{
+    margin: auto;   padding-bottom: 25px;background-color: #81b214;
+}
+
+.col-lg-4
+{
+    margin: auto;
+}
+.position
+{
+    margin: auto;
+}
+.radius
+{
+    border-radius: 25px;
+}
+.bootstrap
+{
+    font-size: .75rem;  opacity: 60%;
+}
+.social
+{
+    margin-top: 25px;  padding-top: 25px;
+}
+.about:hover
+{
+    color: white;
+}
+#projects
+{
+    margin-bottom: 50px;
+}
+#footer
+{
+    padding: 5px;  color: black;
+}
+#footer:hover
+{
+    color: white;
+}
