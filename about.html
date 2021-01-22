@@ -109,9 +109,12 @@
       </h3>
     </div>
     <div class="footer">
-      <p>Hancrafter by me © 2021</p>
+      <p>Hancrafter by me &copy; <span id="year"></span></p>
+      </p>
       <p class="bootstrap">Made with <i id="footer" class="fab fa-bootstrap fa-2x"></i> BootStrap</p>
     </div>
   </div>
-
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 </body>
